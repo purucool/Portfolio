@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d5789863.css",
+    "main.js": "/Portfolio/static/js/main.80c82ad8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/project 1.jpg": "/Portfolio/static/media/project 1.b25ead13f957c8524c47.jpg",
+    "static/media/project6.jpg": "/Portfolio/static/media/project6.49736664e59a2cc86aa5.jpg",
+    "static/media/project3.jpg": "/Portfolio/static/media/project3.e541e93f9c1c6bfe7b18.jpg",
+    "static/media/project7.jpg": "/Portfolio/static/media/project7.b7377fe2c7b1dff4df44.jpg",
+    "static/media/project.jpg": "/Portfolio/static/media/project.7d535815e88e29dd7060.jpg",
+    "static/media/project4.jpg": "/Portfolio/static/media/project4.a77c124b1a6229ee3b02.jpg",
+    "static/media/eg.png": "/Portfolio/static/media/eg.a6ced1021f27f72c63b2.png",
+    "static/media/project5.jpg": "/Portfolio/static/media/project5.935cc0c97b1934d76015.jpg",
+    "static/media/project2.jpg": "/Portfolio/static/media/project2.1499065a68ed2d740d19.jpg",
+    "static/media/removed bg.png": "/Portfolio/static/media/removed bg.3b3f46a35f5614ec263b.png",
+    "static/media/python_page-0001.jpg": "/Portfolio/static/media/python_page-0001.9ec9f1ca6ec1bbd55a56.jpg",
+    "static/media/img2.jpg": "/Portfolio/static/media/img2.b6fbb5f22549b8e769d3.jpg",
+    "static/media/IMG_7771-skylum-skylum.jpeg": "/Portfolio/static/media/IMG_7771-skylum-skylum.33de04970a03564e07ce.jpeg",
+    "static/media/full stack dev cirtificate_page-0001.jpg": "/Portfolio/static/media/full stack dev cirtificate_page-0001.d1b75e14fed0fc91e1f9.jpg",
+    "static/media/colg.jpg": "/Portfolio/static/media/colg.a7cc48d57e53fc54c6a7.jpg",
+    "static/media/cv.pdf": "/Portfolio/static/media/cv.03f42a743437838b828a.pdf",
+    "static/media/location.png": "/Portfolio/static/media/location.ce41a864be4381a3b3b0.png",
+    "static/media/Linkedin.png": "/Portfolio/static/media/Linkedin.504ea8212be10ad14984.png",
+    "static/media/snake-game.jpg": "/Portfolio/static/media/snake-game.8641c351da8f44a0fde2.jpg",
+    "static/media/github.png": "/Portfolio/static/media/github.7dceaf633bc857355513.png",
+    "static/media/education.png": "/Portfolio/static/media/education.51c52731f209cf72323d.png",
+    "static/media/achievements.png": "/Portfolio/static/media/achievements.98ecdd53284d65c00b1a.png",
+    "static/media/profile.png": "/Portfolio/static/media/profile.550d0f884d3f84f7938c.png",
+    "static/media/school.jpeg": "/Portfolio/static/media/school.042226445d5a98c468fa.jpeg",
+    "static/media/undraw_percentages_re_a1ao.svg": "/Portfolio/static/media/undraw_percentages_re_a1ao.31175bb32c2cd6fbc9e80d65d400acaa.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.d5789863.css.map": "/Portfolio/static/css/main.d5789863.css.map",
+    "main.80c82ad8.js.map": "/Portfolio/static/js/main.80c82ad8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5789863.css",
+    "static/js/main.80c82ad8.js"
+  ]
+}
