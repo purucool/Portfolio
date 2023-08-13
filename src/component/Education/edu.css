@@ -1,0 +1,76 @@
+.services{
+    padding:0.3rem 0.3rem;
+    display: flex;
+    height:67vh;
+    margin-bottom:5rem;
+    margin-top:5rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex:1;
+    gap:2rem;
+}
+.awesome h2{
+    margin-left: 2rem;
+    color:black;
+}
+.awesome>:nth-child(2){
+    font-size: 1rem;
+    color:grey;
+    word-spacing: 2px;
+    line-height: 22px;
+    text-align: center;
+}
+.awesome>img{
+    width:250px;
+    height: 250px;
+    margin:auto;
+    /* border: 2px solid  #7575f1; */
+    filter: drop-shadow(30px 10px 4px #898989);
+}
+.cards{
+ position: relative;
+ flex: 1;
+ /* animation:fadeIn 2s; */
+}
+
+.cards>*{
+    position:absolute;
+}
+.e-button{
+    width:155px;
+    flex: 2;
+    margin:auto;
+
+}
+.card1{
+    left: 20rem;
+}
+.card2{
+    left: 20rem;
+    top: 17rem;
+}
+.card3{
+    top:8rem;
+    left: 8rem;
+}
+@media screen and (max-width:500px) {
+    .awesome>img{
+        display:none;
+    }
+    .card1{
+        left: 24rem;
+    }
+    .card2{
+        left: 24rem;
+        top: 15rem;
+
+    }
+    .card3{
+        top:10rem;
+        left: 10rem;
+    }
+
+}

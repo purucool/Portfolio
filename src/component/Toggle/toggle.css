@@ -1,0 +1,21 @@
+.toogle{
+    display: flex;
+    justify-content: space-between;
+    border:3px solid  #7575f1;
+    border-radius: 1rem;
+    position: relative;
+    padding:2px;
+    cursor: pointer;
+    margin:1rem;
+}
+.toogle>*{
+    width: 1rem;
+    height: 1rem;
+    color:#7575f1;
+}
+.t-button{
+    border-radius: 100%;
+    background: #7575f1;
+    position: absolute;
+    border:5px solid #7575f1; 
+}

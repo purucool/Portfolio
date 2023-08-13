@@ -1,0 +1,27 @@
+.project-main{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content:center;
+    align-items: center;
+    grid-gap:1rem 1rem;
+    width:100%;
+}
+.div-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:2rem 0px;
+}
+@media screen and (max-width:500px){
+    .project-main{
+        width:397%;
+    }   
+    .div-heading{
+        width:397%;
+
+
+    }
+
+}

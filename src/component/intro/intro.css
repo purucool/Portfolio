@@ -1,0 +1,109 @@
+.intro{
+    display: flex;
+    height: 77%;
+    margin-top: 6rem;
+    justify-content: space-between;
+    gap:30px;
+}
+.i-left{
+    display:flex;
+    position: relative;
+    flex:1;
+    flex-direction:column;
+    gap: 2rem;
+}
+.i-name{
+    margin-top:2.5rem;
+    display:flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    margin-left:2rem;
+    color:rgb(136, 134, 134);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.i-name>:nth-child(2){
+    margin-left:2rem;
+    color:rgb(135, 68, 244);
+    font-weight: bold;
+    text-shadow: 5px 3px  rgb(219, 216, 216);
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    margin-left:2rem;
+    color:grey;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top:3px;
+}
+.i-button{
+    width:6rem;
+    margin-left:2rem;
+    height: 2rem;
+}
+.i-right{
+    flex: 0.9;
+}
+.intro-icon{
+    margin-left:2rem;
+    display: flex;
+    flex-direction:row;
+    gap:5px;
+}
+.intro-icon>*>*{
+    width:60px;
+    height: 60px;
+}
+.intro-icon>:nth-child(3){
+    width:75px;
+    height: 75px;
+}
+.intro-icon>*:hover{
+    cursor: pointer;
+}
+.imagebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    filter: drop-shadow(10px 10px 4px #7575f1);
+}
+.imagebox>:nth-child(2){
+    width:300px;
+    height:500px;
+    /* border-radius: 100px; */
+    display: flex;
+    filter: drop-shadow(30px 10px 4px #898989);
+    align-items:center;
+    border-radius: 3rem;
+    justify-items:center;
+    margin-bottom:5px ;
+    clip-path:polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 93%, 20% 93%, 0% 80%, 0% 20%);
+    animation:fadeIn 2s;
+    border: 2px solid  #7575f1;
+    /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.imagebox>:nth-child(1){
+    width:250px;
+    height:200px;
+    /* border-radius: 100px; */
+    display: flex;
+    align-items:flex-start;
+    justify-items:flex-start;
+    position: relative;
+    bottom: -300px;
+    /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+}
+.imagebox>:nth-child(3){
+    width:150px;
+    height:150px;
+    /* border-radius: 100px; */
+    display: flex;
+    align-items:flex-start;
+    justify-items:flex-start;
+    /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+}

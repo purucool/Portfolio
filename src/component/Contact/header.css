@@ -1,0 +1,126 @@
+.cont-section{
+    width: 100%;
+    height: auto;
+}
+.cont-section h1{
+    margin-top:4rem;
+    margin-bottom:2rem;
+    margin-left:2rem;
+}
+.cont-section p{
+    text-align: center;
+    color: rgb(133, 132, 132);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.cont-section p span{
+    font-size:1.2rem;
+    font-weight: bold;
+    color: black
+    ;
+}
+.cont-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ct-left{
+    display: flex;
+    flex:1;
+    margin:0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.topbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ct-right{
+    flex:0.5;
+}
+.ct-right img{
+    margin: auto;
+    width:70%;
+}
+.icon{
+    font-size: 25px;
+}
+.icon2{
+    font-size: 35px;
+}
+.ct-left Button{
+    margin:auto;
+}
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    position: relative;
+    /* margin-top: 1rem; */
+    margin:1.2rem auto;
+}
+.form-cont input{
+    height:40px;
+    padding:5px 8px;
+    font-size: 15px;
+}
+.form-cont textarea{
+    font-size: 15px;
+    padding:10px 8px;
+    min-height:130px;
+    min-width: 60%;
+}
+
+
+form Button{
+    position: absolute;
+    left:50%;
+    top:95%;
+}
+.form-cont label{
+    position: absolute;
+    top:-14px;
+    left:14px;
+    color:black;
+    font-weight: 700;
+    padding:0 5px;
+    font-size: 20px;
+    background-color: white;
+    border:none;
+}
+@media screen and (max-width:560px) {
+    .ct-right{
+        display:none;
+    }
+    .ct-left{
+        margin:auto    }
+    .cont-section{
+        /* border:2px solid red; */
+        width: 386%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left:4rem;
+    }
+    .cont-section h1{
+        margin:2rem auto;
+    }
+    form{
+        width: 393%;
+       
+    }
+    form Button{
+        position: absolute;
+        left:225%;
+        top:98%;
+    }
+    .ct-left>Button:nth-of-type(1){
+        width:200%;
+        margin:1rem auto;
+        margin-left: 98%;
+    }
+
+}
